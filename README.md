@@ -14,6 +14,5 @@ https://fotoforensics.com
 <a href="https://29a.ch/photo-forensics/#forensic-magnifier">https://29a.ch/photo-forensics</a>
 </br>
 http://imageedited.com/
-## License 
-
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+## License
+![License](https://img.shields.io/github/license/Daivy03/AI-ELA-fingerprint-remover.svg)
