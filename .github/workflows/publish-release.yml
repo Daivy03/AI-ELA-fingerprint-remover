@@ -1,0 +1,46 @@
+name: Publish exe to releases
+
+on:
+  workflow_run:
+    workflows: ["Test and Build Windows EXE"]
+    types:
+      - completed
+
+jobs:
+  publish:
+    name: Publish Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.D_TOKEN }}
+        with:
+          tag_name: v${{ github.run_number }}
+          release_name: Release v${{ github.run_number }}
+          body: |
+            Release of AI-ELA-remover.exe
+          draft: false
+          prerelease: false
+
+      - name: Upload Executable to Release
+        id: upload_executable
+        uses: actions/upload-artifact@v2
+        with:
+          name: windows-executable
+          path: dist/AI-ELA-remover.exe
+
+      - name: Attach Executable to Release
+        id: attach_to_release
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.D_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ${{ steps.upload_executable.outputs.artifact_paths }}
+          asset_name: AI-ELA-remover-${{ github.run_number }}.exe
+          asset_content_type: application/octet-stream
