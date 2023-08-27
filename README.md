@@ -1,3 +1,6 @@
+[![Test and Build Windows EXE](https://github.com/Daivy03/AI-ELA-fingerprint-remover/actions/workflows/test-build.yml/badge.svg?branch=main)](https://github.com/Daivy03/AI-ELA-fingerprint-remover/actions/workflows/test-build.yml)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
 <h1 align="center">	
 ELA-AI-fingerprint-remover
 </h1>
@@ -11,5 +14,6 @@ https://fotoforensics.com
 <a href="https://29a.ch/photo-forensics/#forensic-magnifier">https://29a.ch/photo-forensics</a>
 </br>
 http://imageedited.com/
-## License
-GNU General Public License v3.0
+## License 
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
