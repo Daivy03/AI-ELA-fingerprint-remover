@@ -1,0 +1,8 @@
+- name: publish
+    uses: softprops/action-gh-release@v2.0.2
+    with:
+      files: |
+        dist/AI-ELA-remover.exe
+      token: ${{ secrets.D_TOKEN }}
+      tag_name: ${{ github.sha }}
+      prerelease: true
