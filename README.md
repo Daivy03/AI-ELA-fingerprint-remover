@@ -17,6 +17,7 @@ http://imageedited.com/ | ✯ Detail report
 
 ### AI DeepFake / Generated image checkers
 https://hivedetect.ai | ✯ Very accurate
+</br>
 https://www.f-secure.com/en/deepfake-detector
 </br>
 ## License
