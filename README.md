@@ -13,9 +13,10 @@ https://fotoforensics.com
 </br>
 <a href="https://29a.ch/photo-forensics/#forensic-magnifier">https://29a.ch/photo-forensics</a>
 </br>
-http://imageedited.com/
+http://imageedited.com/ | ✯ Detail report
 
 ### AI DeepFake / Generated image checkers
+https://hivedetect.ai | ✯ Very accurate
 https://www.f-secure.com/en/deepfake-detector
 </br>
 ## License
