@@ -14,5 +14,9 @@ https://fotoforensics.com
 <a href="https://29a.ch/photo-forensics/#forensic-magnifier">https://29a.ch/photo-forensics</a>
 </br>
 http://imageedited.com/
+
+### AI DeepFake / Generated image checkers
+https://www.f-secure.com/en/deepfake-detector
+</br>
 ## License
 ![License](https://img.shields.io/github/license/Daivy03/AI-ELA-fingerprint-remover.svg)
